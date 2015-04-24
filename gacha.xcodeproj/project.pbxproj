@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CAEA28F1AEA4B990094B94E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAEA28E1AEA4B990094B94E /* AppDelegate.swift */; };
+		5CAEA2911AEA4B990094B94E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAEA2901AEA4B990094B94E /* ViewController.swift */; };
+		5CAEA2941AEA4B990094B94E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CAEA2921AEA4B990094B94E /* Main.storyboard */; };
+		5CAEA2961AEA4B990094B94E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CAEA2951AEA4B990094B94E /* Images.xcassets */; };
+		5CAEA2991AEA4B990094B94E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CAEA2971AEA4B990094B94E /* LaunchScreen.xib */; };
+		5CAEA2A51AEA4B990094B94E /* gachaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAEA2A41AEA4B990094B94E /* gachaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CAEA29F1AEA4B990094B94E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CAEA2811AEA4B990094B94E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CAEA2881AEA4B990094B94E;
+			remoteInfo = gacha;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CAEA2891AEA4B990094B94E /* gacha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gacha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CAEA28D1AEA4B990094B94E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CAEA28E1AEA4B990094B94E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5CAEA2901AEA4B990094B94E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5CAEA2931AEA4B990094B94E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CAEA2951AEA4B990094B94E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5CAEA2981AEA4B990094B94E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5CAEA29E1AEA4B990094B94E /* gachaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gachaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CAEA2A31AEA4B990094B94E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CAEA2A41AEA4B990094B94E /* gachaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gachaTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CAEA2861AEA4B990094B94E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CAEA29B1AEA4B990094B94E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CAEA2801AEA4B990094B94E = {
+			isa = PBXGroup;
+			children = (
+				5CAEA28B1AEA4B990094B94E /* gacha */,
+				5CAEA2A11AEA4B990094B94E /* gachaTests */,
+				5CAEA28A1AEA4B990094B94E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CAEA28A1AEA4B990094B94E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CAEA2891AEA4B990094B94E /* gacha.app */,
+				5CAEA29E1AEA4B990094B94E /* gachaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CAEA28B1AEA4B990094B94E /* gacha */ = {
+			isa = PBXGroup;
+			children = (
+				5CAEA28E1AEA4B990094B94E /* AppDelegate.swift */,
+				5CAEA2901AEA4B990094B94E /* ViewController.swift */,
+				5CAEA2921AEA4B990094B94E /* Main.storyboard */,
+				5CAEA2951AEA4B990094B94E /* Images.xcassets */,
+				5CAEA2971AEA4B990094B94E /* LaunchScreen.xib */,
+				5CAEA28C1AEA4B990094B94E /* Supporting Files */,
+			);
+			path = gacha;
+			sourceTree = "<group>";
+		};
+		5CAEA28C1AEA4B990094B94E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CAEA28D1AEA4B990094B94E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CAEA2A11AEA4B990094B94E /* gachaTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CAEA2A41AEA4B990094B94E /* gachaTests.swift */,
+				5CAEA2A21AEA4B990094B94E /* Supporting Files */,
+			);
+			path = gachaTests;
+			sourceTree = "<group>";
+		};
+		5CAEA2A21AEA4B990094B94E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CAEA2A31AEA4B990094B94E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CAEA2881AEA4B990094B94E /* gacha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CAEA2A81AEA4B990094B94E /* Build configuration list for PBXNativeTarget "gacha" */;
+			buildPhases = (
+				5CAEA2851AEA4B990094B94E /* Sources */,
+				5CAEA2861AEA4B990094B94E /* Frameworks */,
+				5CAEA2871AEA4B990094B94E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gacha;
+			productName = gacha;
+			productReference = 5CAEA2891AEA4B990094B94E /* gacha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CAEA29D1AEA4B990094B94E /* gachaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CAEA2AB1AEA4B990094B94E /* Build configuration list for PBXNativeTarget "gachaTests" */;
+			buildPhases = (
+				5CAEA29A1AEA4B990094B94E /* Sources */,
+				5CAEA29B1AEA4B990094B94E /* Frameworks */,
+				5CAEA29C1AEA4B990094B94E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CAEA2A01AEA4B990094B94E /* PBXTargetDependency */,
+			);
+			name = gachaTests;
+			productName = gachaTests;
+			productReference = 5CAEA29E1AEA4B990094B94E /* gachaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CAEA2811AEA4B990094B94E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Naoto;
+				TargetAttributes = {
+					5CAEA2881AEA4B990094B94E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					5CAEA29D1AEA4B990094B94E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 5CAEA2881AEA4B990094B94E;
+					};
+				};
+			};
+			buildConfigurationList = 5CAEA2841AEA4B990094B94E /* Build configuration list for PBXProject "gacha" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CAEA2801AEA4B990094B94E;
+			productRefGroup = 5CAEA28A1AEA4B990094B94E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CAEA2881AEA4B990094B94E /* gacha */,
+				5CAEA29D1AEA4B990094B94E /* gachaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CAEA2871AEA4B990094B94E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CAEA2941AEA4B990094B94E /* Main.storyboard in Resources */,
+				5CAEA2991AEA4B990094B94E /* LaunchScreen.xib in Resources */,
+				5CAEA2961AEA4B990094B94E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CAEA29C1AEA4B990094B94E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CAEA2851AEA4B990094B94E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CAEA2911AEA4B990094B94E /* ViewController.swift in Sources */,
+				5CAEA28F1AEA4B990094B94E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CAEA29A1AEA4B990094B94E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CAEA2A51AEA4B990094B94E /* gachaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CAEA2A01AEA4B990094B94E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CAEA2881AEA4B990094B94E /* gacha */;
+			targetProxy = 5CAEA29F1AEA4B990094B94E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CAEA2921AEA4B990094B94E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CAEA2931AEA4B990094B94E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CAEA2971AEA4B990094B94E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CAEA2981AEA4B990094B94E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CAEA2A61AEA4B990094B94E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CAEA2A71AEA4B990094B94E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CAEA2A91AEA4B990094B94E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gacha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5CAEA2AA1AEA4B990094B94E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gacha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5CAEA2AC1AEA4B990094B94E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = gachaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gacha.app/gacha";
+			};
+			name = Debug;
+		};
+		5CAEA2AD1AEA4B990094B94E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = gachaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gacha.app/gacha";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CAEA2841AEA4B990094B94E /* Build configuration list for PBXProject "gacha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CAEA2A61AEA4B990094B94E /* Debug */,
+				5CAEA2A71AEA4B990094B94E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CAEA2A81AEA4B990094B94E /* Build configuration list for PBXNativeTarget "gacha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CAEA2A91AEA4B990094B94E /* Debug */,
+				5CAEA2AA1AEA4B990094B94E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5CAEA2AB1AEA4B990094B94E /* Build configuration list for PBXNativeTarget "gachaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CAEA2AC1AEA4B990094B94E /* Debug */,
+				5CAEA2AD1AEA4B990094B94E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CAEA2811AEA4B990094B94E /* Project object */;
+}
