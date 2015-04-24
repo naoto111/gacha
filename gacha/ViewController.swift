@@ -30,6 +30,7 @@ class ViewController: UIViewController {
         var resultViewController = segue.destinationViewController as ResultViewController
         
         resultViewController.number = self.number
+        
     }
 
 }
